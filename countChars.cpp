@@ -1,25 +1,23 @@
-#include<iostream>
-#include<bits/stdc++.h>
+#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-void countChars(string str)
+void countChars(string s)
 {
-  int n = str.length(), i, count = 0;
+  int n = s.length(), i, count = 1;
   char temp;
 
   for (i = 0; i < n; i++)
   {
-    temp = str[i];
-    count = 1;
-    while(str[i + 1] == temp)
-    {
-      i++;
+    if (s[i] == s[i + 1])
       count++;
+    else if (s[i] != s[i + 1])
+    {
+      cout << s[i] << count;
+      count = 1;
     }
-    cout << temp << count;
   }
-  cout << endl;
 }
 
 int main()
