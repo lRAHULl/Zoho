@@ -1,9 +1,5 @@
 /*
 
-Daily Coding Problem <founders@dailycodingproblem.com> Unsubscribe
-27 Mar 2019, 22:01 (2 days ago)
-to me
-
 Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Stripe.
