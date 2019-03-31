@@ -1,3 +1,17 @@
+/*
+Number of cells a queen can move with obstacles on the chessborad
+Consider a N X N chessboard with a Queen and K obstacles. The Queen cannot pass through obstacles. Given the position (x, y) of Queen, the task is to find the number of cells the queen can move.
+
+Examples:
+
+Input : N = 8, x = 4, y = 4, K = 0
+Output : 27
+
+
+Input : N = 8, x = 4, y = 4, K = 1, kx1 = 3, ky1 = 5
+Output : 24
+*/
+
 #include <iostream>
 #include <iomanip>
 
